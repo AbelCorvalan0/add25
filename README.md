@@ -1,4 +1,4 @@
-# Advanced Digital Desing 25
+# Advanced Digital Design 25
 
 In this repository will be present the documentation of The Advanced Digital Design Course.
 
