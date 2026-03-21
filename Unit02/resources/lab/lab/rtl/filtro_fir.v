@@ -1,33 +1,77 @@
 module filtro_fir
   #(
+    // Define input/output word width.
     parameter WW_INPUT  = 8,
     parameter WW_OUTPUT = 8
     ) 
    (
+    // Clock signal.
     input 			  clk,
+    // Enable signal.
     input 			  i_en,
+    // Synchronous reset signal.
     input 			  i_srst,
-    // Input Stream
+    // Input Stream.
     input signed [ WW_INPUT-1:0]  i_data,
-    // Output Stream
+    // Output Stream.
     output signed [WW_OUTPUT-1:0] o_data
     );
 
-  // Local Params
+  // Local Params.
   localparam WW_COEFF = 8;
+  // Word width of coefficients (8 bit signed fixed-point numbers).
 
-  // Internal Signals
+  // Internal Signals.
+   // Delay line (shift register).
+   // This array stores past input samples.
+   // array [7:0] word width and [14:1] due to delay.
+   // This is the time delay element of the FIR filter.
    reg  signed [WW_INPUT           -1:0] register [14:1];
+   
+   // FIR coefficients.
+   // 15 fixed coefficients. Symmetric coefficients with linear phase FIR.
+   // Values are stored in fixed-point format (Q1.7).
+   // These coefficients define the filter frequency response.
    wire signed [         WW_COEFF  -1:0] coeff    [14:0];
-   wire signed [WW_INPUT+WW_COEFF  -1:0] prod     [14:0];
-   wire signed [WW_INPUT+WW_COEFF+1-1:0] sum      [8:1]; 
-   wire signed [WW_INPUT+WW_COEFF+2-1:0] sum1     [4:1]; 
-   wire signed [WW_INPUT+WW_COEFF+3-1:0] sum2     [2:1]; 
-   wire signed [WW_INPUT+WW_COEFF+4-1:0] sum3; 
-   reg signed [WW_INPUT+WW_COEFF   -1:0] prod_d   [14:0];
-   reg signed [WW_INPUT+WW_COEFF+4 -1:0] sum3_d;
-   reg signed [WW_INPUT+WW_COEFF+1 -1:0] sum_d    [8:1];
 
+   // Product
+   // This wire is assigned after.
+   // 15 multipliers operate in parallel.
+   // Output width increases to WW_INPUT+WW_COEFF. 
+   wire signed [WW_INPUT+WW_COEFF  -1:0] prod     [14:0];
+   // Pipelines the multiplier outputs, reduces crcitical path.
+   // Increases maximum clock frequency.
+   //  always @(posedge clk)
+   //   prod_d[i] <= prod[i];
+
+   // Adder tree (multi-stage summation).
+   // The products are summed using a BALANCED ADDER TREE.
+   // First level (16 to 8).
+   wire signed [WW_INPUT+WW_COEFF+1-1:0] sum      [8:1];
+   // Second level (8 to 4). 
+   wire signed [WW_INPUT+WW_COEFF+2-1:0] sum1     [4:1];
+   // Third level (4 to 2). 
+   wire signed [WW_INPUT+WW_COEFF+3-1:0] sum2     [2:1];
+   // Final level (2 to 1). 
+   wire signed [WW_INPUT+WW_COEFF+4-1:0] sum3;
+   // This structure:
+   //   - Minimize adde depth.
+   //   - Balances delays.
+   //   - Prevents timing bottlenecks.
+
+   // Used in Product pipeline register.
+   reg signed [WW_INPUT+WW_COEFF   -1:0] prod_d   [14:0];
+
+   // Used in Adder Tree structure.
+   // sum3_d <= sum3;
+   reg signed [WW_INPUT+WW_COEFF+4 -1:0] sum3_d;
+
+   // sum_d[...] <= sum[...];
+   reg signed [WW_INPUT+WW_COEFF+1 -1:0] sum_d    [8:1];
+   // These registers:
+   //   - Pipeline each adder stage.
+   //   - Allow very high clock rates.
+   //   - Add latency but preserve throughput.
 
   // Coeffs c = [-1 1/2 -1/4 1/8]
     assign coeff[ 0] = 8'hFF;
@@ -49,6 +93,7 @@ module filtro_fir
   // Shift Register
   always @(posedge clk) begin
     if (i_srst == 1'b1) begin
+      // Put 0 bit in registers [14:0].
       register[ 1] <= {WW_INPUT{1'b0}};
       register[ 2] <= {WW_INPUT{1'b0}};
       register[ 3] <= {WW_INPUT{1'b0}};
@@ -65,6 +110,7 @@ module filtro_fir
       register[14] <= {WW_INPUT{1'b0}};
     end else begin
       if (i_en == 1'b1) begin
+        // Shift/delay.
         register[ 1] <= i_data;
         register[ 2] <= register[ 1];
         register[ 3] <= register[ 2];
@@ -78,15 +124,18 @@ module filtro_fir
         register[11] <= register[10];
         register[12] <= register[11];
         register[13] <= register[12];
-	    register[14] <= register[13];
+	      register[14] <= register[13];
 
       end
     end
   end
 
   // Products
+  // h0*x[n]
   assign prod[ 0] = coeff[ 0] * i_data;
+  // h1*x[n-1]
   assign prod[ 1] = coeff[ 1] * register[ 1];
+  // h2*x[n-2]
   assign prod[ 2] = coeff[ 2] * register[ 2];
   assign prod[ 3] = coeff[ 3] * register[ 3];
   assign prod[ 4] = coeff[ 4] * register[ 4];
@@ -157,6 +206,12 @@ module filtro_fir
   always@(posedge clk)
     sum3_d <= sum3;
       
+  // Output formatting: Saturation and truncation.
+  // This is essential in fixed-point DSP systems.
+  // This block:
+  //    - Converts a wide internal result to the ouput width.
+  //    - Applies saturation (prevents overflow wrap-around).
+  //    - Applies truncation or rounding.
   SatTruncFP
 	inst_SatTruncFP_dataB
 	(
