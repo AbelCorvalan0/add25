@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice4/top/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice4/top/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

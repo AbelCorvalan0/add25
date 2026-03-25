@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_4b/sub/adder_4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_7b/sub/adder_7b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_7b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/multiplexer/sub/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/register1/sub/register1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+WARNING: [VRFC 10-2938] 'o_sum1' is already implicitly declared on line 17 [/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/top.v:23]
+WARNING: [VRFC 10-2938] 'o_multiplexer' is already implicitly declared on line 34 [/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/top.v:42]
+WARNING: [VRFC 10-2938] 'o_sum2' is already implicitly declared on line 49 [/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/top.v:54]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

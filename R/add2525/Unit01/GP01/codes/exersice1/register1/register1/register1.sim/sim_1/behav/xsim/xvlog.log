@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/register1/sub/register1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/register1/sub/tb_register1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_register1
