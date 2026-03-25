@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" \
+"../../../../../../../../../../Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/multiplier/multiplier.v" \
+"../../../../../../../../../../Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/multiplier/tb_multiplier.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

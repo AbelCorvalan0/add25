@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1763772339">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="operations_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="operations_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="operations.vdi"/>
+  <File Type="BG-DRC" Name="operations.drc"/>
+  <File Type="BG-BGN" Name="operations.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="operations.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="operations.ltx"/>
+  <File Type="PL-LTX-FILE" Name="operations_pld.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="operations_boot.ltx"/>
+  <File Type="LTX-FILE" Name="operations.ltx"/>
+  <File Type="PL-BIF-FILE" Name="operations_pld.bif"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="operations_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="operations_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="operations_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="operations_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="operations_power_summary_routed.pb"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="operations_pld_unmask.rcdo"/>
+  <File Type="ROUTE-PWR" Name="operations_power_routed.rpt"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="operations_pld_unmask_markers.rcdo"/>
+  <File Type="ROUTE-DRC-PB" Name="operations_drc_routed.pb"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="operations_pld_mask.rcdo"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="operations_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC" Name="operations_drc_routed.rpt"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="operations_pld_markers.rcdo"/>
+  <File Type="ROUTE-UTIL-PB" Name="operations_utilization_routed.pb"/>
+  <File Type="BITSTR-BMM" Name="operations_bd.bmm"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="operations_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="operations_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="operations_routed_error.dcp"/>
+  <File Type="ROUTE-UTIL" Name="operations_utilization_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="operations.rbt"/>
+  <File Type="PHYSOPT-DRC" Name="operations_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="operations_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="operations_postplace_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="operations_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="operations_reports.tcl"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="operations_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="operations.hwdef"/>
+  <File Type="BOOT_RNPI_FILE" Name="operations_boot.rnpi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="operations_methodology_drc_routed.rpt"/>
+  <File Type="PLACE-CTRL" Name="operations_control_sets_placed.rpt"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="operations_pld_shutdown.rnpi"/>
+  <File Type="OPT-UTIL-PB" Name="operations_utilization_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="operations.mmi"/>
+  <File Type="PA-TCL" Name="operations.tcl"/>
+  <File Type="INIT-TIMING" Name="operations_timing_summary_init.rpt"/>
+  <File Type="OPT-UTIL" Name="operations_utilization_opted.rpt"/>
+  <File Type="BITSTR-NKY" Name="operations.nky"/>
+  <File Type="PLACE-TIMING" Name="operations_timing_summary_placed.rpt"/>
+  <File Type="OPT-DRC" Name="operations_drc_opted.rpt"/>
+  <File Type="MARKER-RNPI-FILE" Name="operations_markers.rnpi"/>
+  <File Type="PWROPT-TIMING" Name="operations_timing_summary_pwropted.rpt"/>
+  <File Type="OPT-DCP" Name="operations_opt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="operations_rqa_opted.pb"/>
+  <File Type="PLACE-RQA-PB" Name="operations_rqa_placed.pb"/>
+  <File Type="PLACE-DCP" Name="operations_placed.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="operations_methodology_drc_routed.pb"/>
+  <File Type="PLACE-SIMILARITY" Name="operations_incremental_reuse_placed.rpt"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="operations_pld_unmask.rnpi"/>
+  <File Type="PWROPT-DCP" Name="operations_pwropt.dcp"/>
+  <File Type="ROUTE-DRC-RPX" Name="operations_drc_routed.rpx"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="operations_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="operations_pld_clear.rcdo"/>
+  <File Type="PWROPT-DRC" Name="operations_drc_pwropted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="operations_timing_summary_physopted.rpt"/>
+  <File Type="PLACE-IO" Name="operations_io_placed.rpt"/>
+  <File Type="PL_RNPI_FILE" Name="operations_pld.rnpi"/>
+  <File Type="PLACE-CLK" Name="operations_clock_utilization_placed.rpt"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="operations_boot_markers.rnpi"/>
+  <File Type="PLACE-UTIL" Name="operations_utilization_placed.rpt"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="operations_pld_markers.rnpi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="operations_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="operations_utilization_placed.pb"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="operations_pld_mask.rnpi"/>
+  <File Type="ROUTE-TIMING-PB" Name="operations_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="operations_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="operations_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="operations_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="operations_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="operations_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="operations_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="operations_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="operations_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="operations_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="operations_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="operations_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="operations_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="operations_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="operations_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="operations_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="operations.bit"/>
+  <File Type="BG-BIN" Name="operations.bin"/>
+  <File Type="BITSTR-MSK" Name="operations.msk"/>
+  <File Type="PDI-FILE" Name="operations.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="operations_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="operations_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="operations.rcfi"/>
+  <File Type="CFI_FILE" Name="operations.cfi"/>
+  <File Type="RNPI_FILE" Name="operations.rnpi"/>
+  <File Type="RCDO-FILE" Name="operations.rcdo"/>
+  <File Type="MARKER-RCDO-FILE" Name="operations_markers.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="operations_pld.rcdo"/>
+  <File Type="NPI_FILE" Name="operations.npi"/>
+  <File Type="RBD_FILE" Name="operations.rbd"/>
+  <File Type="MMI-FILE" Name="operations.mmi"/>
+  <File Type="BIF-FILE" Name="operations.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="operations_boot.bif"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice2/operations.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="operations"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../Downloads/sr_muxVioIla/muxVioIla/Arty_Master_v2.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Nov  7 17:53:47 2025
+# Process ID         : 22115
+# Current directory  : /home/abel/Documents/vivado_projects/test1/test1.runs/impl_1/.Xil/Vivado-21667-asus/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1
+# Command line       : vivado -log dbg_hub.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dbg_hub.tcl
+# Log file           : /home/abel/Documents/vivado_projects/test1/test1.runs/impl_1/.Xil/Vivado-21667-asus/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/dbg_hub.vds
+# Journal file       : /home/abel/Documents/vivado_projects/test1/test1.runs/impl_1/.Xil/Vivado-21667-asus/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/vivado.jou
+# Running On         : asus
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 3800.000 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8008 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 12303 MB
+# Available Virtual  : 1652 MB
+#-----------------------------------------------------------
+source dbg_hub.tcl -notrace
+Command: synth_design -top dbg_hub -part xc7a35ticsg324-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22166

@@ -1,0 +1,77 @@
+
+*** Running vivado
+    with args -log shiftleds_muxVioIla.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source shiftleds_muxVioIla.tcl -notrace
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri Nov  7 17:53:16 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source shiftleds_muxVioIla.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'.
+Command: link_design -top shiftleds_muxVioIla -part xc7a35ticsg324-1L
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+INFO: [Project 1-454] Reading design checkpoint '/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_ila_0_0.dcp' for cell 'u_ila/ila_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/vio/ip/vio_vio_0_0/vio_vio_0_0.dcp' for cell 'u_vio/vio_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1739.637 ; gain = 0.000 ; free physical = 574 ; free virtual = 2747
+INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: u_ila/ila_0 UUID: 1674bc15-b5d7-59ad-b991-eb091262f1b2 
+INFO: [Chipscope 16-324] Core: u_vio/vio_0 UUID: 0f405e52-d1a7-52b1-8d20-a3de0b7faa16 
+Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'u_ila/ila_0/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila_impl.xdc:31]
+Finished Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'u_ila/ila_0/inst'
+Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila.xdc] for cell 'u_ila/ila_0/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila.xdc:108]
+Finished Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila.xdc] for cell 'u_ila/ila_0/inst'
+Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/vio/ip/vio_vio_0_0/vio_vio_0_0.xdc] for cell 'u_vio/vio_0'
+Finished Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/vio/ip/vio_vio_0_0/vio_vio_0_0.xdc] for cell 'u_vio/vio_0'
+Parsing XDC File [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/Arty_Master_v2.xdc]
+Finished Parsing XDC File [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/Arty_Master_v2.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 2 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1931.117 ; gain = 0.000 ; free physical = 514 ; free virtual = 2663
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 32 instances
+
+16 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35ti'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.45 . Memory (MB): peak = 2060.094 ; gain = 128.941 ; free physical = 485 ; free virtual = 2637
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1db7c35fa
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2464.047 ; gain = 403.953 ; free physical = 240 ; free virtual = 2341
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+
+Phase 1.1.1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.

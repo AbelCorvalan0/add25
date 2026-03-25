@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+ time | fract_int sig1 sig2 | o_and3
+-----------------------------------
+                   0 |     0        0    0  |   0
+               10000 |     0        0    1  |   0
+               20000 |     0        1    0  |   0
+               30000 |     0        1    1  |   0
+               40000 |     1        0    0  |   0
+               50000 |     1        0    1  |   0
+               60000 |     1        1    0  |   0
+               70000 |     1        1    1  |   1
+$finish called at time : 80 ns : File "/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/comb_1/tb_comb_1.v" Line 34

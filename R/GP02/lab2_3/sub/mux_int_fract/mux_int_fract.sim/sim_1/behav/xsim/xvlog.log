@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/mux_int_fract/mux_int_fract.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_int_fract
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/mux_int_fract/tb_mux_int_fract.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mux_int_fract
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/GP02/lab2_3/sub/mux_int_fract/mux_int_fract.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

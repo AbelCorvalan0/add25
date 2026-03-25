@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice2/operations.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module operations
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice2/tb_operations.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_operations

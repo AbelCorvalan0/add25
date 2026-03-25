@@ -1,0 +1,14 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilter.v,1635697560,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilterCSD.v,,FIRfilter,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilterCSD.v,1635697560,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilterCV.v,,FIRfilterCSD,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilterCV.v,1594069500,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilterDA.v,,FIRfilterCV,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilterDA.v,1594069500,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilterTDFComp.v,,FIRfilterDA,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/FIRfilterTDFComp.v,1594069500,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/tb_FIR_filters.v,,FIRfilterTDFComp,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/firs/tb_FIR_filters.v,1635696840,verilog,,,,tb_FIRFilters,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/multipliers/boothMult.v,1594069500,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/multipliers/mult.v,,boothMult,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/multipliers/mult.v,1594069500,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/multipliers/tb_mult.v,,mult,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/multipliers/tb_mult.v,1635696540,verilog,,,,tb_mult,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/GP04/lab4_1/lab4_1.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,

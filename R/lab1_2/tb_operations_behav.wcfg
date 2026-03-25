@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_operations_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_operations" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ps"></ZoomStartTime>
+      <ZoomEndTime time="13 ps"></ZoomEndTime>
+      <Cursor1Time time="4 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject type="array" fp_name="/tb_operations/o_dataC">
+      <obj_property name="ElementShortName">o_dataC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_dataC[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_operations/i_dataA">
+      <obj_property name="ElementShortName">i_dataA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_dataA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_operations/i_dataB">
+      <obj_property name="ElementShortName">i_dataB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_dataB[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_operations/i_sel">
+      <obj_property name="ElementShortName">i_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_sel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

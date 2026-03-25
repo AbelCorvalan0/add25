@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/shiftReg/shiftleds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftleds
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/shiftReg/tb_shiftleds.v" into library xil_defaultlib
+WARNING: [VRFC 10-9157] macro 'NB_COUNT' is redefined [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/shiftReg/tb_shiftleds.v:17]
+INFO: [VRFC 10-311] analyzing module tb_shiftleds
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/test1/test1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

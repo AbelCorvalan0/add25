@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Nov  7 17:53:16 2025
+# Process ID         : 21667
+# Current directory  : /home/abel/Documents/vivado_projects/test1/test1.runs/impl_1
+# Command line       : vivado -log shiftleds_muxVioIla.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source shiftleds_muxVioIla.tcl -notrace
+# Log file           : /home/abel/Documents/vivado_projects/test1/test1.runs/impl_1/shiftleds_muxVioIla.vdi
+# Journal file       : /home/abel/Documents/vivado_projects/test1/test1.runs/impl_1/vivado.jou
+# Running On         : asus
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 3800.000 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8008 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 12303 MB
+# Available Virtual  : 3641 MB
+#-----------------------------------------------------------
+source shiftleds_muxVioIla.tcl -notrace

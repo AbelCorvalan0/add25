@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/adder_4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/adder_6b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_6b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/mux2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1_6b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/reg6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg6
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/tb_test2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

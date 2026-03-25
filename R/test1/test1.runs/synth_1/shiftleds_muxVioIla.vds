@@ -1,0 +1,282 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Nov  7 17:52:45 2025
+# Process ID         : 21090
+# Current directory  : /home/abel/Documents/vivado_projects/test1/test1.runs/synth_1
+# Command line       : vivado -log shiftleds_muxVioIla.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source shiftleds_muxVioIla.tcl
+# Log file           : /home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/shiftleds_muxVioIla.vds
+# Journal file       : /home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/vivado.jou
+# Running On         : asus
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 433.429 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8008 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 12303 MB
+# Available Virtual  : 4246 MB
+#-----------------------------------------------------------
+source shiftleds_muxVioIla.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental /home/abel/Documents/vivado_projects/test1/test1.srcs/utils_1/imports/synth_1/shiftleds.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/abel/Documents/vivado_projects/test1/test1.srcs/utils_1/imports/synth_1/shiftleds.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top shiftleds_muxVioIla -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21173
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2139.207 ; gain = 440.742 ; free physical = 173 ; free virtual = 2889
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'shiftleds_muxVioIla' [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/shiftleds_muxVioIla.v:20]
+INFO: [Synth 8-6157] synthesizing module 'vio' [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/vio/synth/vio.v:13]
+INFO: [Synth 8-6157] synthesizing module 'vio_vio_0_0' [/home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/.Xil/Vivado-21090-asus/realtime/vio_vio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_vio_0_0' (0#1) [/home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/.Xil/Vivado-21090-asus/realtime/vio_vio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio' (0#1) [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/vio/synth/vio.v:13]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/shiftleds_muxVioIla.v:116]
+INFO: [Synth 8-6157] synthesizing module 'ila' [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/synth/ila.v:13]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/synth/ila.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ila_ila_0_0' [/home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/.Xil/Vivado-21090-asus/realtime/ila_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_ila_0_0' (0#1) [/home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/.Xil/Vivado-21090-asus/realtime/ila_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila' (0#1) [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/synth/ila.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'shiftleds_muxVioIla' (0#1) [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/shiftleds_muxVioIla.v:20]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_0'. This will prevent further optimization [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/vio/synth/vio.v:45]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ila'. This will prevent further optimization [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/shiftleds_muxVioIla.v:116]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/synth/ila.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2217.176 ; gain = 518.711 ; free physical = 173 ; free virtual = 2815
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2229.051 ; gain = 530.586 ; free physical = 173 ; free virtual = 2815
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2229.051 ; gain = 530.586 ; free physical = 173 ; free virtual = 2815
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2229.051 ; gain = 0.000 ; free physical = 178 ; free virtual = 2821
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_ila_0_0/ila_ila_0_0_in_context.xdc] for cell 'u_ila/ila_0'
+Finished Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_ila_0_0/ila_ila_0_0_in_context.xdc] for cell 'u_ila/ila_0'
+Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/vio/ip/vio_vio_0_0/vio_vio_0_0/vio_vio_0_0_in_context.xdc] for cell 'u_vio/vio_0'
+Finished Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.gen/sources_1/bd/vio/ip/vio_vio_0_0/vio_vio_0_0/vio_vio_0_0_in_context.xdc] for cell 'u_vio/vio_0'
+Parsing XDC File [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/Arty_Master_v2.xdc]
+Finished Parsing XDC File [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/Arty_Master_v2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/muxVioIla/Arty_Master_v2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/shiftleds_muxVioIla_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/shiftleds_muxVioIla_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2325.789 ; gain = 0.000 ; free physical = 175 ; free virtual = 2818
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2325.824 ; gain = 0.000 ; free physical = 174 ; free virtual = 2818
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2325.824 ; gain = 627.359 ; free physical = 267 ; free virtual = 2900
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2333.793 ; gain = 635.328 ; free physical = 266 ; free virtual = 2900
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2333.793 ; gain = 635.328 ; free physical = 256 ; free virtual = 2896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint /home/abel/Documents/vivado_projects/test1/test1.srcs/utils_1/imports/synth_1/shiftleds.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2333.793 ; gain = 635.328 ; free physical = 238 ; free virtual = 2891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2333.793 ; gain = 635.328 ; free physical = 238 ; free virtual = 2891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2333.793 ; gain = 635.328 ; free physical = 241 ; free virtual = 2892
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   3 Input   26 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2333.793 ; gain = 635.328 ; free physical = 158 ; free virtual = 2794
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2396.793 ; gain = 698.328 ; free physical = 165 ; free virtual = 2650
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2425.840 ; gain = 727.375 ; free physical = 197 ; free virtual = 2628
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2425.840 ; gain = 727.375 ; free physical = 189 ; free virtual = 2620
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2580.652 ; gain = 882.188 ; free physical = 164 ; free virtual = 2164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2580.652 ; gain = 882.188 ; free physical = 166 ; free virtual = 2164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2580.652 ; gain = 882.188 ; free physical = 174 ; free virtual = 2162
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2580.652 ; gain = 882.188 ; free physical = 174 ; free virtual = 2162
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2580.652 ; gain = 882.188 ; free physical = 174 ; free virtual = 2162
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2580.652 ; gain = 882.188 ; free physical = 175 ; free virtual = 2164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |vio_vio_0_0   |         1|
+|2     |ila_ila_0_0   |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |ila_ila_0 |     1|
+|2     |vio_vio_0 |     1|
+|3     |BUFG      |     1|
+|4     |CARRY4    |    12|
+|5     |LUT2      |    50|
+|6     |LUT3      |     3|
+|7     |LUT4      |     9|
+|8     |LUT6      |     4|
+|9     |FDCE      |    35|
+|10    |FDPE      |     1|
+|11    |IBUF      |     6|
+|12    |OBUF      |    12|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2580.652 ; gain = 882.188 ; free physical = 175 ; free virtual = 2164
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2580.652 ; gain = 785.414 ; free physical = 187 ; free virtual = 2153
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2580.660 ; gain = 882.188 ; free physical = 187 ; free virtual = 2153
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2580.660 ; gain = 0.000 ; free physical = 177 ; free virtual = 2144
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2636.680 ; gain = 0.000 ; free physical = 325 ; free virtual = 2311
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 2b52ccb7
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 3 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:24 . Memory (MB): peak = 2636.715 ; gain = 1099.570 ; free physical = 327 ; free virtual = 2311
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1897.661; main = 1897.661; forked = 306.114
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3297.664; main = 2636.684; forked = 963.867
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2660.691 ; gain = 0.000 ; free physical = 307 ; free virtual = 2300
+INFO: [Common 17-1381] The checkpoint '/home/abel/Documents/vivado_projects/test1/test1.runs/synth_1/shiftleds_muxVioIla.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file shiftleds_muxVioIla_utilization_synth.rpt -pb shiftleds_muxVioIla_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  7 17:53:14 2025...

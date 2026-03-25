@@ -1,0 +1,36 @@
+Time resolution is 1 ps
+Time=                   0, i_data1=1, i_data2=1, i_sel=01, o_data= 0, o_overflow=0
+Time=                5000, i_data1=1, i_data2=1, i_sel=01, o_data= 2, o_overflow=0
+Time=               15000, i_data1=1, i_data2=1, i_sel=01, o_data= 4, o_overflow=0
+Time=               25000, i_data1=1, i_data2=1, i_sel=01, o_data= 6, o_overflow=0
+Time=               35000, i_data1=1, i_data2=1, i_sel=01, o_data= 8, o_overflow=0
+Time=               45000, i_data1=1, i_data2=1, i_sel=01, o_data=10, o_overflow=0
+Time=               55000, i_data1=1, i_data2=1, i_sel=01, o_data=12, o_overflow=0
+Time=               65000, i_data1=1, i_data2=1, i_sel=01, o_data=14, o_overflow=0
+Time=               75000, i_data1=1, i_data2=1, i_sel=01, o_data=16, o_overflow=0
+Time=               85000, i_data1=1, i_data2=1, i_sel=01, o_data=18, o_overflow=0
+Time=               95000, i_data1=1, i_data2=1, i_sel=01, o_data=20, o_overflow=0
+Time=              105000, i_data1=1, i_data2=1, i_sel=01, o_data=22, o_overflow=0
+Time=              115000, i_data1=1, i_data2=1, i_sel=01, o_data=24, o_overflow=0
+Time=              125000, i_data1=1, i_data2=1, i_sel=01, o_data=26, o_overflow=0
+Time=              135000, i_data1=1, i_data2=1, i_sel=01, o_data=28, o_overflow=0
+Time=              145000, i_data1=1, i_data2=1, i_sel=01, o_data=30, o_overflow=0
+Time=              155000, i_data1=1, i_data2=1, i_sel=01, o_data=32, o_overflow=0
+Time=              165000, i_data1=1, i_data2=1, i_sel=01, o_data=34, o_overflow=0
+Time=              175000, i_data1=1, i_data2=1, i_sel=01, o_data=36, o_overflow=0
+Time=              185000, i_data1=1, i_data2=1, i_sel=01, o_data=38, o_overflow=0
+Time=              195000, i_data1=1, i_data2=1, i_sel=01, o_data=40, o_overflow=0
+Time=              205000, i_data1=1, i_data2=1, i_sel=01, o_data=42, o_overflow=0
+Time=              215000, i_data1=1, i_data2=1, i_sel=01, o_data=44, o_overflow=0
+Time=              225000, i_data1=1, i_data2=1, i_sel=01, o_data=46, o_overflow=0
+Time=              235000, i_data1=1, i_data2=1, i_sel=01, o_data=48, o_overflow=0
+Time=              245000, i_data1=1, i_data2=1, i_sel=01, o_data=50, o_overflow=0
+Time=              255000, i_data1=1, i_data2=1, i_sel=01, o_data=52, o_overflow=0
+Time=              265000, i_data1=1, i_data2=1, i_sel=01, o_data=54, o_overflow=0
+Time=              275000, i_data1=1, i_data2=1, i_sel=01, o_data=56, o_overflow=0
+Time=              285000, i_data1=1, i_data2=1, i_sel=01, o_data=58, o_overflow=0
+Time=              295000, i_data1=1, i_data2=1, i_sel=01, o_data=60, o_overflow=0
+Time=              305000, i_data1=1, i_data2=1, i_sel=01, o_data=62, o_overflow=1
+Time=              315000, i_data1=1, i_data2=1, i_sel=01, o_data= 0, o_overflow=0
+Time=              325000, i_data1=1, i_data2=1, i_sel=01, o_data= 2, o_overflow=0
+$finish called at time : 335 ns : File "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/tb_test2.v" Line 32

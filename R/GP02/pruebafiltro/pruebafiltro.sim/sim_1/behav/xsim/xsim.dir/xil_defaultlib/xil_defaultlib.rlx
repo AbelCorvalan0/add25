@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir/filtro_fir.v,1769120850,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir/signal_generator.v,,filtro_fir,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir/signal_generator.v,1600052700,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir/top_design.v,,signal_generator,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir/tb_filtro_fir.v,1696890647,verilog,,,,tb_filtro_fir,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir/top_design.v,1696614274,verilog,,,,top_design,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/GP02/pruebafiltro/pruebafiltro.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,

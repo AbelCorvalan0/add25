@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/acc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uniform_multiplier_17x17
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/tb_acc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_uniform_multiplier_17x17

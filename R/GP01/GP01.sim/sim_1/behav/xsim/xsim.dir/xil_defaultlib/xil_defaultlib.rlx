@@ -1,0 +1,13 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/adder_4b.v,1762176434,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/adder_6b.v,,adder_4b,,,../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/adder_6b.v,1762180016,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/mux2to1.v,,adder_6b,,,../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/mux2to1.v,1763129914,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/reg6.v,,mux2to1_6b,,,../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/reg6.v,1762180327,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/top.v,,reg6,,,../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/tb_test2.v,1763131837,verilog,,,,tb_top,,,../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/top.v,1762177921,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/tb_test2.v,,top,,,../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/shiftReg/shiftleds.v,1725097356,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/shiftReg/tb_shiftleds.v,,shiftleds,,,../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit01/resources/sr_muxVioIla/shiftReg/tb_shiftleds.v,1725109962,verilog,,,,tb_shiftleds,,,../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/GP01/GP01.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
