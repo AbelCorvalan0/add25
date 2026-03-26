@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jan 28 21:59:54 2026
+# Process ID         : 24524
+# Current directory  : /home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir
+# Command line       : vivado -mode batch -source load_files2.tcl
+# Log file           : /home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir/vivado.log
+# Journal file       : /home/abel/Desktop/dd1/githubRepos/add25/Unit02/resources/fir/fir/vivado.jou
+# Running On         : asus
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 3800.000 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8008 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 12303 MB
+# Available Virtual  : 5410 MB
+#-----------------------------------------------------------
+source load_files2.tcl

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" \
+"../../../../../../adder_4b/sub/adder_4b.v" \
+"../../../../../../adder_7b/sub/adder_7b.v" \
+"../../../../../../multiplexer/sub/multiplexer.v" \
+"../../../../../../register1/sub/register1.v" \
+"../../../../../../top/top.v" \
+"../../../../../../top/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

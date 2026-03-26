@@ -1,0 +1,11 @@
+set_property radix hex [get_waves sim:/tb/dut/my_signal]
+
+set_property radix bin [get_waves sim:/tb/dut/my_signal]
+set_property radix dec [get_waves sim:/tb/dut/my_signal]
+set_property radix unsigned [get_waves sim:/tb/dut/my_signal]
+set_property radix signed [get_waves sim:/tb/dut/my_signal]
+
+set_property radix hex [get_waves *]
+
+add_wave sim:/tb/dut/my_signal
+set_property radix hex [get_waves sim:/tb/dut/my_signal]

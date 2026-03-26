@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice2/sub/top/operations.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module operations
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice2/sub/top/tb_operations.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_operations
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice2/proj/operations/operations.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
