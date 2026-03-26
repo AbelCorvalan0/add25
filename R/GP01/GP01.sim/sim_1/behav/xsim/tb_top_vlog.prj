@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" \
+"../../../../../../../Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/adder_4b.v" \
+"../../../../../../../Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/adder_6b.v" \
+"../../../../../../../Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/mux2to1.v" \
+"../../../../../../../Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/reg6.v" \
+"../../../../../../../Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/top.v" \
+"../../../../../../../Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice1/tb_test2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

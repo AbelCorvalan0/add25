@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/multipliers/boothMult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module boothMult
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/multipliers/mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit04/resources/to_sent/to_sent/multipliers/tb_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mult

@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Time= 0 | i_0=  0 | i_1=  1 | i_2=  2 | o_multiplier=  0
+Time= 20000 | i_0=  0 | i_1=  1 | i_2=  2 | o_multiplier=  1
+Time= 30000 | i_0=  0 | i_1=  1 | i_2=  2 | o_multiplier=  2
+Time= 40000 | i_0=  0 | i_1=  1 | i_2=  2 | o_multiplier=  0
+$finish called at time : 50 ns : File "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/multiplexer/sub/tb_multiplexer.v" Line 41

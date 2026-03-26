@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice4/try/P1_E4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P1_E4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/GPI01/codes/excersice4/try/SIM_P1_E4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SIM_P1_E4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/test2/test2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

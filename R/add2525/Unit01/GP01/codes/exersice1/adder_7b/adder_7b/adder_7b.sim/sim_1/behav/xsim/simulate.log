@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Time = 0 | o_sum2 =  57 | i_sumA = 15 | i_sumB = 42
+Time = 10000 | o_sum2 =  39 | i_sumA = 26 | i_sumB = 13
+$finish called at time : 20 ns : File "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_7b/sub/tb_adder_7b.v" Line 30

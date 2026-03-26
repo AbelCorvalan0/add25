@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/codes/exercise_1/sum1/sum1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sum1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/codes/exercise_1/sum1/tb_sum1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sum1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/GP1/sub/sum1/sum1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

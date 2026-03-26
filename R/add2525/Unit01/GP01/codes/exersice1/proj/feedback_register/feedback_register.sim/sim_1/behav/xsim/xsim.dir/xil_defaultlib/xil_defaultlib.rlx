@@ -1,0 +1,12 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_4b/sub/adder_4b.v,1772075023,verilog,,/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_7b/sub/adder_7b.v,,adder_4b,,,../../../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_7b/sub/adder_7b.v,1772147292,verilog,,/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/multiplexer/sub/multiplexer.v,,adder_7b,,,../../../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/multiplexer/sub/multiplexer.v,1772142297,verilog,,/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/register1/sub/register1.v,,multiplexer,,,../../../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/proj/feedback_register/feedback_register.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/register1/sub/register1.v,1773282519,verilog,,/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/top.v,,register1,,,../../../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/tb4_top.v,1773593672,verilog,,,,tb4_top,,,../../../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/tb_top.v,1773286988,verilog,,,,tb_top,,,../../../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/top.v,1773283600,verilog,,/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/top/tb_top.v,,top,,,../../../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,

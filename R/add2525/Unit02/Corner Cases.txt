@@ -1,0 +1,121 @@
+Corner Cases
+
+- SxS mínimo negativo
+
+a = 16'h8000  (-32768)
+b = 16'h8000  (-32768)
+
+a_ext = 17'b1_0000_0000_0000_0000
+b_ext = 17'b1_0000_0000_0000_0000
+
+(+2^15) × (+2^15) = +2^30
+
+Resultado positivo grande
+Puede exceder el rango representable
+El truncado a 32 bits puede parecer válido, pero:
+	- en fraccional --> overflow
+	- en entero     --> saturación
+	
+#######################################
+- SxS máximo positivo x máximo positivo
+
+a = 16'h7FFF  (+32767)
+b = 16'h7FFF  (+32767)
+
+R= ~1.07e9
+
+En entero → MSBs no son solo extensión de signo
+En fraccional → después del shift + redondeo, se pasa de +1.0
+Overflow positivo
+
+
+######################################
+- SxU (y viceversa)
+
+a = 16'h8000  (-32768)   signed
+b = 16'hFFFF  (65535)    unsigned
+
+a_ext = 1_1000_0000_0000_0000
+b_ext = 0_1111_1111_1111_1111
+
+Producto:
+Muy grande
+Signo negativo
+Fácil que el truncado:
+	pierda el signo
+	o genere wrap-around
+Corner case de signo cruzado
+
+######################################
+- UxU máximos
+
+a = 16'hFFFF (65535)
+b = 16'hFFFF (65535)
+
+~4.29e9  (> 2^32)
+
+El resultado NO entra en 32 bits
+MSBs != extensión de signo (porque es unsigned)
+Overflow 
+
+#####################################
+Fraccional SxS -1x-1
+
+Q1.15
+a = 16'h8000  (-1.0)
+b = 16'h8000  (-1.0)
+
++1.0
+
++1.0 No es representable en Q1.15
+Después de:
+	Drop del bit redundante
+	Redondeo
+		overflow
+Corner case fraccional CLÁSICO.
+
+####################################
+Fraccional redondeo genera overflow
+
+producto = 0x7FFF_FFFF_xxxx
++ rounding bit
+----------------
+= 0x8000_0000
+
+Resultado
+	Cambia el signo
+	Explota aunque antes del redondeo era válido
+Corner Case solo por redondeo
+
+####################################
+Fraccional valor muy pequeño
+	a ≈ 0
+	b ≈ 0
+	
+Producto:
+	Muy chico
+	Después del truncado -> 0
+	Pero el redondeo puede dar +- 1 LSB
+No es overflow, pero sí un corner funcional
+
+
+####################################
+Cero x cualquier número (signed/unsigned)
+
+a = 0
+b = cualquier cosa
+
+Debe dar: 0
+
+Problema típico:
+	mala extensión de signo
+	basura en bits altos
+	flag overflow mal seteado
+Corner case de sanidad.
+
+
+
+
+
+
+

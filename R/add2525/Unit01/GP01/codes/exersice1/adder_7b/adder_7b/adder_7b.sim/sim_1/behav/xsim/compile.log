@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_7b/sub/adder_7b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_7b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_7b/sub/tb_adder_7b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_adder_7b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/add25/Unit01/GP01/codes/exersice1/adder_7b/adder_7b/adder_7b.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

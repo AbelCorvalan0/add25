@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+time=0 | sel=0 | P=10 (0x0000000a) | result=10 (0x0000000a)
+time=10000 | sel=1 | P=10 (0x0000000a) | result=20 (0x00000014)
+time=20000 | sel=0 | P=-5 (0xfffffffb) | result=-5 (0xfffffffb)
+time=30000 | sel=1 | P=-5 (0xfffffffb) | result=-10 (0xfffffff6)
+time=40000 | sel=0 | P=100000 (0x000186a0) | result=100000 (0x000186a0)
+time=50000 | sel=1 | P=100000 (0x000186a0) | result=200000 (0x00030d40)
+$finish called at time : 60 ns : File "/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/mux_int_fract/tb_mux_int_fract.v" Line 47

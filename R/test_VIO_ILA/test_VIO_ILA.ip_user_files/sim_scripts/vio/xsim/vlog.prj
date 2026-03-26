@@ -1,0 +1,8 @@
+verilog xil_defaultlib -i "../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" --include "../../../../test_VIO_ILA.gen/sources_1/bd/vio/ipshared/5431/hdl/verilog" --include "../../../../test_VIO_ILA.gen/sources_1/bd/vio/ipshared/4e08/hdl/verilog" --include "../../../../test_VIO_ILA.gen/sources_1/bd/vio/ipshared/0de9/hdl" \
+"../../../bd/vio/ip/vio_vio_0_0/sim/vio_vio_0_0.v" \
+"../../../bd/vio/sim/vio.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

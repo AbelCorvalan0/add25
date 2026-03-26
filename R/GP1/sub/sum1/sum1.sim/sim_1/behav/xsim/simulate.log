@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Time= 0 | i_data1= 0 | i_data2= 0 | o_sum1 =  0
+Time= 10000 | i_data1= 1 | i_data2= 2 | o_sum1 =  3
+Time= 20000 | i_data1= 3 | i_data2= 4 | o_sum1 =  7
+Time= 30000 | i_data1= 7 | i_data2= 7 | o_sum1 = 14
+$finish called at time : 40 ns : File "/home/abel/Desktop/dd1/githubRepos/add25/Unit01/codes/exercise_1/sum1/tb_sum1.v" Line 29

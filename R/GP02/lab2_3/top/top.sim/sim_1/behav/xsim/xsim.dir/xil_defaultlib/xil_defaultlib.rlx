@@ -1,0 +1,14 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/comb_1/comb_1.v,1767834560,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/multiplexer/multiplexer.v,,comb_1,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/comb_2/comb_2.v,1768130137,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/corner_cases/corner_cases.v,,comb_2,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/corner_cases/corner_cases.v,1768495919,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/multiplexer/multiplexer.v,,corner_cases,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/multiplexer/multiplexer.v,1768283900,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/multiplier/multiplier.v,,multiplexer,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/multiplier/multiplier.v,1768509728,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/mux_int_fract/mux_int_fract.v,,multiplier,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/mux_int_fract/mux_int_fract.v,1767674542,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/top/top.v,,mux_int_fract,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/mux_sat/mux_sat.v,1768271336,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/top/top.v,,mux_sat,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/top/tb_top.v,1768506779,verilog,,,,tb_top,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/top/top.v,1768509566,verilog,,/home/abel/Desktop/dd1/githubRepos/add25/Unit02/codes/excersice_3/top/tb_top.v,,top,,,../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/GP02/lab2_3/top/top.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
