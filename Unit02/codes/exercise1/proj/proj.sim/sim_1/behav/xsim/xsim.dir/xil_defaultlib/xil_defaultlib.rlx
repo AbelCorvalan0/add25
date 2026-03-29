@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 14 2025
+12:36:23
+/home/abel/Documents/vivado_projects/Unit02/codes/exercise1/proj/proj.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+/home/abel/Documents/vivado_projects/Unit02/codes/exercise1/top/multiplier.v,1774750536,verilog,,/home/abel/Documents/vivado_projects/Unit02/codes/exercise1/top/tb_multiplier.v,,multiplier,,,../../../../../../../../../Vivado/2025.2/data/rsb/busdef,,,,,
+/home/abel/Documents/vivado_projects/Unit02/codes/exercise1/top/tb_multiplier.v,1774751184,verilog,,,,multiplier_tb,,,../../../../../../../../../Vivado/2025.2/data/rsb/busdef,,,,,

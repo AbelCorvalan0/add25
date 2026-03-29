@@ -1,44 +1,73 @@
 `timescale 1ns/1ps
 
-module tb_multiplier;
+module multiplier_tb;
 
-reg signA, signB;
-reg [3:0] expA, expB;
-reg [7:0] mantA, mantB;
+    // Parameters (match DUT)
+    parameter EXP_WIDTH      = 4;
+    parameter MANTISSA_WIDTH = 8;
+    parameter BIAS           = 7;
 
-wire sign_result;
-wire [3:0] exp_result;
-wire [7:0] mant_result;
+    // Inputs (reg)
+    reg signA;
+    reg [EXP_WIDTH-1:0] expA;
+    reg [MANTISSA_WIDTH-1:0] mantA;
 
-multiplier_fp13 uut (
-    .signA(signA),
-    .expA(expA),
-    .mantA(mantA),
-    .signB(signB),
-    .expB(expB),
-    .mantB(mantB),
-    .sign_result(sign_result),
-    .exp_result(exp_result),
-    .mant_result(mant_result)
-);
+    reg signB;
+    reg [EXP_WIDTH-1:0] expB;
+    reg [MANTISSA_WIDTH-1:0] mantB;
 
-initial begin
-    // Test 1
-    signA = 0; expA = 4'd3; mantA = 8'd10;
-    signB = 0; expB = 4'd2; mantB = 8'd5;
-    #10;
+    // Outputs (wire)
+    wire [EXP_WIDTH + MANTISSA_WIDTH : 0] result;
+    wire sign_result;
+    wire [EXP_WIDTH-1:0] exp_result;
+    wire [MANTISSA_WIDTH-1:0] mant_result;
 
-    // Test 2
-    signA = 1; expA = 4'd4; mantA = 8'd20;
-    signB = 0; expB = 4'd3; mantB = 8'd3;
-    #10;
+    // Instantiate DUT
+    multiplier #(
+        .EXP_WIDTH(EXP_WIDTH),
+        .MANTISSA_WIDTH(MANTISSA_WIDTH),
+        .BIAS(BIAS)
+    ) multiplier (
+        .result(result),
+        .sign_result(sign_result),
+        .exp_result(exp_result),
+        .mant_result(mant_result),
+        .signA(signA),
+        .expA(expA),
+        .mantA(mantA),
+        .signB(signB),
+        .expB(expB),
+        .mantB(mantB)
+    );
 
-    // Test 3
-    signA = 1; expA = 4'd7; mantA = 8'd50;
-    signB = 1; expB = 4'd2; mantB = 8'd2;
-    #10;
+    // Test procedure
+    initial begin
 
-    $finish;
-end
+        // Test 1
+        signA = 0; expA = 4'd7; mantA = 8'd128; // ~1.0
+        signB = 0; expB = 4'd7; mantB = 8'd128; // ~1.0
+        #10;
+
+        // Test 2 (different signs)
+        // mant_op[15] == 1
+        // negative result
+        signA = 0; expA = 4'd8; mantA = 8'd150;
+        signB = 1; expB = 4'd6; mantB = 8'd120;
+        #10;
+
+        // Test 3 (overflow case)
+        // mant_op[15] == 1
+        signA = 0; expA = 4'd10; mantA = 8'd200;
+        signB = 0; expB = 4'd10; mantB = 8'd200;
+        #10;
+
+        // Test 4 (zero case)
+        signA = 0; expA = 0; mantA = 0;
+        signB = 0; expB = 0; mantB = 0;
+        #10;
+
+        // Finish simulation
+        $finish;
+    end
 
 endmodule

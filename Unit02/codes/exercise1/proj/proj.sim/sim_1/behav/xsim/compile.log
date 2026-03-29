@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/Unit02/codes/exercise1/top/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abel/Documents/vivado_projects/Unit02/codes/exercise1/top/tb_multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
